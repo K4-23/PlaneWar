@@ -1,29 +1,23 @@
-### IntelliJ IDEA ###
+# 构建产物
+target/
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+build/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
 .vscode/
+.settings/
+.classpath
+.project
 
-### Mac OS ###
+# 系统
 .DS_Store
+Thumbs.db
+
+# 存档（运行时生成在用户目录，这里防一手）
+*.properties
+!src/main/resources/**/*.properties
