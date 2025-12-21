@@ -348,11 +348,11 @@ public final class Renderer {
         BufferedImage img = new BufferedImage(Config.WIDTH, Config.HEIGHT, BufferedImage.TYPE_INT_ARGB);
         Graphics2D gg = img.createGraphics();
         gg.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
-        float r = (float) Math.hypot(Config.WIDTH, Config.HEIGHT) * 0.55f;
+        float r = (float) Math.hypot(Config.WIDTH, Config.HEIGHT) * 0.62f;
         RadialGradientPaint paint = new RadialGradientPaint(
                 new Point2D.Float(Config.WIDTH / 2f, Config.HEIGHT * 0.45f), r,
                 new float[]{0f, 0.62f, 1f},
-                new Color[]{new Color(0, 0, 0, 0), new Color(0, 0, 0, 40), new Color(0, 0, 0, 190)});
+                new Color[]{new Color(0, 0, 0, 0), new Color(0, 0, 0, 40), new Color(0, 0, 0, 150)});
         gg.setPaint(paint);
         gg.fillRect(0, 0, Config.WIDTH, Config.HEIGHT);
         gg.dispose();
