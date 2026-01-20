@@ -29,7 +29,7 @@ public final class Boss {
     public double sizeW = 288;
     public double sizeH = 288;
     public double radius = 112;
-    public double targetY = 250;
+    public double targetY = 430;
 
     private double t;
     private double attackTimer = 1.2;
