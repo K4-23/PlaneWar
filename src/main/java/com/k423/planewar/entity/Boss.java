@@ -117,7 +117,7 @@ public final class Boss {
                 case 1 -> {
                     BossPatterns.fan(world, x, y + 70, BossPatterns.aimAtPlayer(world, x, y),
                             7, 62, 235, 10, Palette.MAGENTA);
-                    attackTimer = 1.9;
+                    attackTimer = 1.55;
                 }
                 case 2 -> {
                     BossPatterns.fan(world, x, y + 70, BossPatterns.aimAtPlayer(world, x, y),
