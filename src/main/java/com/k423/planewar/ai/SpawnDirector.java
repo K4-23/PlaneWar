@@ -15,7 +15,7 @@ public final class SpawnDirector {
 
     private static final String[] STAGE_NAMES = {"峡谷空域", "风暴前线", "深渊母舰"};
     private static final String[] BOSS_NAMES = {"峡谷哨卫", "风暴巨兽", "深渊母舰"};
-    private static final int[] GROUPS_PER_STAGE = {7, 9, 11};
+    private static final int[] GROUPS_PER_STAGE = {9, 11, 13};
     private static final double[] GROUP_INTERVAL = {3.0, 2.6, 2.2};
 
     private final Rng rng;
