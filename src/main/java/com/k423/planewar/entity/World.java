@@ -344,7 +344,7 @@ public final class World {
 
     public void spawnBoss(String name, boolean finalBoss, int hp) {
         boss = new Boss(name, finalBoss, hp);
-        boss.targetY = 300;
+        boss.targetY = 430;
         boss.y = -220;
         audio.startMusic(3);
     }
