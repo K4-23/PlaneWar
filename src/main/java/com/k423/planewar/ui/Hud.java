@@ -93,7 +93,7 @@ public final class Hud {
         }
         double w = 380;
         double x = (Config.WIDTH - w) / 2.0;
-        double y = 34;
+        double y = 150;
         r.fillRect(x - 6, y - 24, w + 12, 54, new java.awt.Color(10, 14, 26, 210), 1f);
         r.textOutlined(boss.name, Config.WIDTH / 2.0, y - 6, Fonts.bold(20), Palette.WHITE, Palette.DARK,
                 Renderer.Align.CENTER, 1f);
