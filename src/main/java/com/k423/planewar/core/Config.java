@@ -24,7 +24,7 @@ public final class Config {
     public static final double PLAYER_RADIUS = 15;
     public static final int PLAYER_LIVES = 4;
     public static final double RESPAWN_INVULN = 2.0;
-    public static final double START_FIRE_INTERVAL = 0.14;
+    public static final double START_FIRE_INTERVAL = 0.115;
     public static final double FIRE_INTERVAL_PER_LEVEL = 0.008;
     public static final double MIN_FIRE_INTERVAL = 0.07;
 
