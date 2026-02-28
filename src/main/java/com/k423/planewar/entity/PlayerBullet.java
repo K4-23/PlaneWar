@@ -47,8 +47,8 @@ public final class PlayerBullet extends Entity {
 
     @Override
     public void render(Renderer r) {
-        r.orb(x, y, width * 2.4, Palette.CYAN, 0.32f);
-        r.sprite(Assets.BULLET_PLAYER, x, y, width, height, 1f);
-
+        // 像素能量弹：外框 + 高光，两个矩形就够
+        r.fillRect(x - width * 0.42, y - height * 0.48, width * 0.84, height * 0.96, Palette.AMBER, 1f);
+        r.fillRect(x - width * 0.18, y - height * 0.40, width * 0.36, height * 0.80, Palette.WHITE, 1f);
     }
 }
