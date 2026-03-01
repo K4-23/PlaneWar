@@ -34,7 +34,7 @@ public final class Config {
     public static final double ENEMY_BULLET_SPEED = 260;
 
     // ---------- 战斗节奏 ----------
-    public static final double COMBO_WINDOW = 2.0;
+    public static final double COMBO_WINDOW = 2.6;
     public static final int COMBO_STEP = 6;
     public static final int COMBO_MAX_MULTIPLIER = 5;
     public static final double BOMB_RADIUS = 400;
