@@ -19,7 +19,7 @@ public final class Config {
     public static final int MAX_CATCH_UP = 3;
 
     // ---------- 玩家 ----------
-    public static final double PLAYER_SPEED = 380;
+    public static final double PLAYER_SPEED = 430;
     public static final double PLAYER_FOCUS_SPEED = 205;
     public static final double PLAYER_RADIUS = 15;
     public static final int PLAYER_LIVES = 4;
