@@ -17,7 +17,7 @@ public final class Player extends Entity {
 
     public int lives = Config.PLAYER_LIVES;
     public int weaponLevel = 2;
-    public int bombs = 1;
+    public int bombs = 2;
     public double shieldTime;
     public double invulnTime;
     public double fireTimer;
