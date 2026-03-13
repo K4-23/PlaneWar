@@ -293,7 +293,7 @@ public final class World {
                 }
             }
             case SHIELD -> {
-                player.shieldTime = 6.0;
+                player.shieldTime = 9.0;
                 texts.spawn("护盾 9 秒", player.x, player.y - 64, Palette.ICE, 20, true, 1.0);
             }
             case BOMB -> player.bombs = Math.min(5, player.bombs + 1);
