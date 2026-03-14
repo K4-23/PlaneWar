@@ -238,14 +238,14 @@ public final class Player extends Entity {
             r.translate(x, y);
             r.rotate(bank * 0.4);
             r.sprite(Assets.shadow(Assets.PLAYER), 3, 4, 96, 96, 0.2f);
-            r.sprite(Assets.PLAYER, 0, 0, 64, 64, 1f);
+            r.sprite(Assets.PLAYER, 0, 0, 96, 96, 1f);
             r.pop();
         }
         if (muzzleFlash > 0.05) {
             r.fillRect(x - 4, y - 52, 8, 12 * muzzleFlash + 6, Palette.WHITE, 0.9f);
         }
         if (hitFlash > 0.05) {
-            r.sprite(Assets.white(Assets.PLAYER), x, y, 64, 64, 0.7f * (float) hitFlash);
+            r.sprite(Assets.white(Assets.PLAYER), x, y, 96, 96, 0.7f * (float) hitFlash);
         }
         if (shieldTime > 0) {
             double pulse = 0.5 + 0.5 * Math.sin(age * 8);
