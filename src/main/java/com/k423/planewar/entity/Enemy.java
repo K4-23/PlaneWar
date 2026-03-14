@@ -174,11 +174,11 @@ public final class Enemy extends Entity {
     /** 像素素材固定 32x32，这里按机型给放大倍数（整数倍，保持像素锐利）。 */
     private static double sizeOf(EnemyType type) {
         return switch (type) {
-            case SCOUT -> 48;
-            case FIGHTER -> 64;
-            case TANK -> 80;
-            case ELITE -> 96;
-            case DRONE -> 48;
+            case SCOUT -> 64;
+            case FIGHTER -> 96;
+            case TANK -> 128;
+            case ELITE -> 160;
+            case DRONE -> 64;
         };
     }
 
