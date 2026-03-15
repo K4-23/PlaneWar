@@ -113,7 +113,7 @@ public final class Player extends Entity {
                 double dx = mx - x;
                 double dy = my - y;
                 double dist = Math.hypot(dx, dy);
-                double speed = Config.PLAYER_SPEED * 1.6 * dt;
+                double speed = Config.PLAYER_SPEED * 2.1 * dt;
                 if (dist > 1) {
                     double step = Math.min(dist, speed);
                     x += dx / dist * step;
