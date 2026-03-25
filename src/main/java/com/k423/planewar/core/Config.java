@@ -21,7 +21,7 @@ public final class Config {
     // ---------- 玩家 ----------
     public static final double PLAYER_SPEED = 430;
     public static final double PLAYER_FOCUS_SPEED = 205;
-    public static final double PLAYER_RADIUS = 15;
+    public static final double PLAYER_RADIUS = 20;
     public static final int PLAYER_LIVES = 3;
     public static final double RESPAWN_INVULN = 2.6;
     public static final double START_FIRE_INTERVAL = 0.115;
