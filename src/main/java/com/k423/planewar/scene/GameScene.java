@@ -156,7 +156,7 @@ public final class GameScene implements Scene {
         hud.render(r, world, ctx.save.highScore(), ctx.save.showFps(), ctx.fps);
 
         if (ctx.save.crtEnabled()) {
-            r.scanlines(0.32f);
+            r.scanlines(0.10f);
         }
 
         if (paused) {
