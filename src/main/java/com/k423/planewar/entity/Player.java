@@ -209,7 +209,7 @@ public final class Player extends Entity {
         x = Config.WIDTH / 2.0;
         y = Config.HEIGHT - 190;
         invulnTime = Config.RESPAWN_INVULN;
-        shieldTime = 0.8;
+        shieldTime = 1.2;
         world.texts.spawn("剩余机体 " + lives, x, y - 70, Palette.AMBER, 24, true, 1.2);
     }
 
