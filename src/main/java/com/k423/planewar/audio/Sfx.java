@@ -1,0 +1,7 @@
+package com.k423.planewar.audio;
+
+/** 14 种游戏音效。 */
+public enum Sfx {
+    SHOOT, ENEMY_SHOOT, HIT, EXPLOSION, BIG_EXPLOSION, PLAYER_HIT, POWERUP, BOMB,
+    SHIELD_BREAK, BOSS_WARNING, UI_CLICK, UI_HOVER, VICTORY, DEFEAT
+}
