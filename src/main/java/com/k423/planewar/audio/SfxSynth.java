@@ -1,4 +1,5 @@
 package com.k423.planewar.audio;
+import com.k423.planewar.audio.Synth.Wave;
 import java.util.EnumMap;
 import java.util.Map;
 import java.util.Random;
