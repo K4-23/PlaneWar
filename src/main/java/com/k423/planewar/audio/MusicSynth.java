@@ -137,7 +137,7 @@ final class MusicSynth {
             double e = (t < att ? t / att : Math.exp(-(t - att) / tau)) * amp;
             e *= Math.min(1, (dur - t) / 0.01);
             double s = noisy ? rnd.nextDouble() * 2 - 1 : Synth.wave(wave, phase, duty);
-            phase += inc; inc *= incMul; t += 1.0;
+            phase += inc; inc *= incMul; t += 1.0 / SR;
             return s * e;
         }
     }
