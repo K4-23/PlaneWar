@@ -47,7 +47,7 @@ public final class AudioEngine implements AutoCloseable {
         if (pcm == null || volume <= 0f) return;
         pitch = Math.max(0.5f, Math.min(2f, pitch));
         synchronized (lock) {
-            if (voices.size() >= 24) voices.remove(0);
+            if (voices.size() >= 40) voices.remove(0);
             voices.add(new Voice(pcm, volume, pitch));
         }
     }
