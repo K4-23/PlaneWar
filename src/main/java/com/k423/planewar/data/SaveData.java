@@ -26,7 +26,7 @@ public final class SaveData {
     private int totalKills;
     private int totalPlays;
     private long totalPlaySeconds;
-    private float musicVolume = 0.55f;
+    private float musicVolume = 0.65f;
     private float sfxVolume = 0.95f;
     private boolean crtEnabled = true;
     private boolean showFps;
