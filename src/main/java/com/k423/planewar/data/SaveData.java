@@ -27,7 +27,7 @@ public final class SaveData {
     private int totalPlays;
     private long totalPlaySeconds;
     private float musicVolume = 0.65f;
-    private float sfxVolume = 0.95f;
+    private float sfxVolume = 0.85f;
     private boolean crtEnabled = true;
     private boolean showFps;
     private Difficulty difficulty = Difficulty.NORMAL;
