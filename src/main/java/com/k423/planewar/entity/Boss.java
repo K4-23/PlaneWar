@@ -92,7 +92,7 @@ public final class Boss {
 
     private void updatePhase() {
         double r = hpRatio();
-        int next = r > 0.7 ? 1 : r > 0.35 ? 2 : 3;
+        int next = r > 0.66 ? 1 : r > 0.33 ? 2 : 3;
         if (next != phase) {
             phase = next;
             attackTimer = Math.max(attackTimer, 0.8);
