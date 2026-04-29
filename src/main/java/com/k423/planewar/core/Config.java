@@ -16,7 +16,7 @@ public final class Config {
     /** 固定步长：逻辑每秒更新 60 次，与渲染帧率解耦。 */
     public static final double FIXED_DT = 1.0 / 60.0;
     /** 单帧最多补算几次，防止卡顿后一次性补算导致的"瞬移"。 */
-    public static final int MAX_CATCH_UP = 3;
+    public static final int MAX_CATCH_UP = 5;
 
     // ---------- 玩家 ----------
     public static final double PLAYER_SPEED = 430;
