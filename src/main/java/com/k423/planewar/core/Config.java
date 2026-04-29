@@ -46,7 +46,7 @@ public final class Config {
     public static final int MAX_WEAPON_LEVEL = 5;
 
     // ---------- 特效 ----------
-    public static final int MAX_PARTICLES = 2000;
+    public static final int MAX_PARTICLES = 3200;
     public static final int MAX_FLOATING_TEXT = 64;
     public static final double SHAKE_DECAY = 4.5;
 
