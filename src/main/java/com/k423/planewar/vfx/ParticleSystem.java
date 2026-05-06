@@ -224,7 +224,7 @@ public final class ParticleSystem {
 
     /** 一次小型爆炸：火花 + 烟 + 一圈冲击环。 */
     public void explosion(double x, double y, double scale, Color core) {
-        spark(x, y, (int) (8 * scale), core, 320 * scale, 0.42, 2.2 * scale);
+        spark(x, y, (int) (12 * scale), core, 320 * scale, 0.42, 2.2 * scale);
         spark(x, y, (int) (8 * scale), Palette.AMBER, 210 * scale, 0.55, 2.6 * scale);
         smoke(x, y, (int) (6 * scale), new Color(50, 55, 70), 10 * scale, 0.9, 9 * scale);
         ring(x, y, Palette.alpha(core, 0.85f), 6 * scale, 62 * scale, 0.42);
