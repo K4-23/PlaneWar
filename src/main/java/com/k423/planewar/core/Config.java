@@ -30,7 +30,7 @@ public final class Config {
 
     // ---------- 子弹 ----------
     public static final double PLAYER_BULLET_SPEED = 1080;
-    public static final int PLAYER_BULLET_DAMAGE = 10;
+    public static final int PLAYER_BULLET_DAMAGE = 12;
     public static final double ENEMY_BULLET_SPEED = 300;
 
     // ---------- 战斗节奏 ----------
