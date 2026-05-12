@@ -249,7 +249,7 @@ public final class MenuScene implements Scene {
         r.fillRect(Config.WIDTH / 2.0 - 150, 540 + bob, 300, 2, Palette.CYAN, 0.6f);
 
         for (int i = 0; i < MAIN_ITEMS.length; i++) {
-            double y = 640 + i * 60;
+            double y = 640 + i * 68;
             boolean sel = i == index;
             String label = MAIN_ITEMS[i];
             if (i == 1) {
