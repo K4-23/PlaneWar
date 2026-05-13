@@ -101,7 +101,7 @@ public final class GameScene implements Scene {
                     world.kills, world.runTime);
             resultSaved = true;
         }
-        if (resultTimer > 2.0) {
+        if (resultTimer > 1.4) {
             showResult = true;
         }
         if (!showResult) {
