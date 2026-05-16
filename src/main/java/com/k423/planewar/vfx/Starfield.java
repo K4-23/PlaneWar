@@ -31,7 +31,7 @@ public final class Starfield {
         y = new double[LAYERS][];
         depth = new double[LAYERS][];
         twinkle = new double[LAYERS][];
-        speed = new double[]{20, 50, 120};
+        speed = new double[]{26, 62, 140};
         for (int l = 0; l < LAYERS; l++) {
             int n = COUNTS[l];
             x[l] = new double[n];
