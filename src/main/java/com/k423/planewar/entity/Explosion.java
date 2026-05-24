@@ -12,7 +12,7 @@ import java.awt.image.BufferedImage;
  */
 public final class Explosion extends Entity {
 
-    private static final double SMALL_DURATION = 0.6;
+    private static final double SMALL_DURATION = 0.48;
     private static final double BIG_DURATION = 0.78;
 
     public double size = 90;
