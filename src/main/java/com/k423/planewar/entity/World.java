@@ -420,7 +420,7 @@ public final class World {
     public void addScore(int base, double x, double y) {
         int pts = (int) Math.round(base * comboMultiplier() * difficulty.score() * (scoreBoost > 0 ? 2 : 1));
         score += pts;
-        if (pts >= 40 || kills % 4 == 0) {
+        if (pts >= 24 || kills % 4 == 0) {
             texts.spawn("+" + pts, x, y - 18, Palette.AMBER, 18, true, 0.85);
         }
     }
