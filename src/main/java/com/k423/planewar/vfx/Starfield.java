@@ -14,7 +14,7 @@ import java.awt.Color;
 public final class Starfield {
 
     private static final int LAYERS = 3;
-    private static final int[] COUNTS = {70, 50, 28};
+    private static final int[] COUNTS = {90, 60, 34};
 
     private final double[][] x;
     private final double[][] y;
