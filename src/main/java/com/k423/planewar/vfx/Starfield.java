@@ -75,7 +75,7 @@ public final class Starfield {
         for (int l = 0; l < LAYERS; l++) {
             for (int i = 0; i < x[l].length; i++) {
                 double tw = 0.55 + 0.45 * Math.sin(time * 2.1 + twinkle[l][i]);
-                double size = (l + 1) * 0.7 * depth[l][i];
+                double size = (l + 1) * 0.9 * depth[l][i];
                 float a = (float) (Math.min(1, tw) * (0.18 + l * 0.16) * intensity);
                 if (warp > 0.02) {
                     double len = (warp * 90) * (l + 1) / 3.0;
