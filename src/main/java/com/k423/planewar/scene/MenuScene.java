@@ -52,7 +52,7 @@ public final class MenuScene implements Scene {
         if (bgScroll > Config.HEIGHT) {
             bgScroll -= Config.HEIGHT;
         }
-        shipX = Config.WIDTH * 0.5 + Math.sin(t * 0.55) * 160;
+        shipX = Config.WIDTH * 0.5 + Math.sin(t * 0.55) * 210;
         shipY = 205 + Math.sin(t * 0.9) * 16;
 
         if (page == Page.MAIN) {
