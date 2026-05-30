@@ -14,7 +14,7 @@ public enum Difficulty {
 
     EASY("简单", 0.72, 1.35, 0.88, 0.8, 0.8),
     NORMAL("普通", 1.0, 1.0, 1.0, 1.0, 1.0),
-    HARD("困难", 1.35, 0.8, 1.1, 1.5, 1.15);
+    HARD("困难", 1.4, 0.78, 1.12, 1.6, 1.2);
 
     private final String label;
     private final double enemyHp;
