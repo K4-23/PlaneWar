@@ -34,7 +34,7 @@ public final class ScreenEffects {
             shakeX = 0;
             shakeY = 0;
         }
-        flash = Math.max(0, flash - dt * 4.0);
+        flash = Math.max(0, flash - dt * 3.2);
         hitstop = Math.max(0, hitstop - dt);
         timeScale = hitstop > 0 ? 0.25 : 1;
     }
