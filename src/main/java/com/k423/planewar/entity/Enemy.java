@@ -194,7 +194,7 @@ public final class Enemy extends Entity {
         }
 
         // 高血量单位显示像素血条
-        if (maxHp > 100 && hp < maxHp) {
+        if (maxHp > 60 && hp < maxHp) {
             double barW = size * 0.8;
             double ratio = Math.max(0, hp / (double) maxHp);
             double by = y - size / 2 - 10;
