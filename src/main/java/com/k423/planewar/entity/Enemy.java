@@ -56,7 +56,7 @@ public final class Enemy extends Entity {
         this.hitFlash = 0;
         this.dirX = Math.random() < 0.5 ? -1 : 1;
         this.orbitAngle = Math.random() * MathUtils.TAU;
-        this.swayAmp = type == EnemyType.SCOUT ? 20 : 38;
+        this.swayAmp = type == EnemyType.SCOUT ? 26 : 44;
         this.swayFreq = 1.2 + Math.random() * 0.8;
         this.spinAngle = 0;
         return this;
