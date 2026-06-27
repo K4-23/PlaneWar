@@ -92,7 +92,7 @@ public final class World {
         hitSoundCooldown = Math.max(0, hitSoundCooldown - dt);
         bossWarning = Math.max(0, bossWarning - dt);
         bannerTimer = Math.max(0, bannerTimer - dt);
-        bgScroll += 34 * dt;
+        bgScroll += 46 * dt;
         if (bgScroll > Config.HEIGHT) {
             bgScroll -= Config.HEIGHT;
         }
