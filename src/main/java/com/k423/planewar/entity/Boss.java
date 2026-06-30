@@ -33,7 +33,7 @@ public final class Boss {
 
     private double t;
     private double attackTimer = 1.2;
-    private double secondaryTimer = 3.0;
+    private double secondaryTimer = 2.4;
     private double summonTimer = 6;
     private double spiralAngle;
     private double spiralTimer;
