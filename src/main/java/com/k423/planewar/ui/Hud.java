@@ -23,7 +23,7 @@ public final class Hud {
         Player p = world.player;
 
         // 顶部信息条
-        r.fillRect(0, 0, Config.WIDTH, 88, PANEL, 1f);
+        r.fillRect(0, 0, Config.WIDTH, 104, PANEL, 1f);
         r.textOutlined("SCORE", 20, 28, Fonts.bold(15), Palette.AMBER, Palette.DARK,
                 Renderer.Align.LEFT, 1f);
         Assets.drawNumber(r, world.score, 16, 62, 2, null);
