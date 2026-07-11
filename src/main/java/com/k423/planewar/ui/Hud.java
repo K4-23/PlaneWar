@@ -37,7 +37,7 @@ public final class Hud {
 
         // 生命 / 炸弹
         for (int i = 0; i < p.lives; i++) {
-            r.sprite(Assets.PLAYER, Config.WIDTH - 34 - i * 30, 74, 22, 22, 1f);
+            r.sprite(Assets.PLAYER, Config.WIDTH - 34 - i * 30, 74, 26, 26, 1f);
         }
         for (int i = 0; i < p.bombs; i++) {
             r.sprite(Assets.ICON_BOMB, Config.WIDTH - 34 - i * 28, 98, 20, 20, 1f);
