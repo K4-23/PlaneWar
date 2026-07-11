@@ -91,7 +91,7 @@ public final class Hud {
         if (boss == null || boss.state == Boss.State.DEAD) {
             return;
         }
-        double w = 380;
+        double w = 440;
         double x = (Config.WIDTH - w) / 2.0;
         double y = 150;
         r.fillRect(x - 6, y - 24, w + 12, 54, new java.awt.Color(10, 14, 26, 210), 1f);
