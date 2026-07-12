@@ -44,7 +44,7 @@ public final class Hud {
         }
 
         // 底部：火力 / 护盾
-        r.fillRect(0, Config.HEIGHT - 50, Config.WIDTH, 50, PANEL, 1f);
+        r.fillRect(0, Config.HEIGHT - 62, Config.WIDTH, 62, PANEL, 1f);
         r.textOutlined("POWER", 20, Config.HEIGHT - 36, Fonts.bold(13), Palette.WHITE, Palette.DARK,
                 Renderer.Align.LEFT, 0.95f);
         for (int i = 0; i < Config.MAX_WEAPON_LEVEL; i++) {
