@@ -45,7 +45,7 @@ public final class EnemyBullet extends Entity {
 
     @Override
     public void render(Renderer r) {
-        double s = Math.max(6, radius * 1.5);
+        double s = Math.max(6, radius * 1.25);
         r.fillRect(x - s / 2 - 1, y - s / 2 - 1, s + 2, s + 2, Palette.DARK, 0.75f);
         r.fillRect(x - s / 2, y - s / 2, s, s, color, 1f);
         r.fillRect(x - s / 4, y - s / 4, s / 2, s / 2, Palette.WHITE, 1f);
