@@ -398,9 +398,9 @@ public final class World {
             default -> 1.0;
         };
         spawnExplosion(e.x, e.y, switch (e.type) {
-            case ELITE -> 128;
+            case ELITE -> 160;
             case TANK -> 128;
-            default -> 64;
+            default -> 80;
         }, e.type == EnemyType.ELITE);
         particles.explosion(e.x, e.y, scale, Palette.ORANGE);
         particles.debris(e.x, e.y, 8, Palette.CYAN, 240, 0.7, 3.2);
