@@ -233,7 +233,7 @@ public final class MenuScene implements Scene {
         r.push();
         r.translate(shipX, shipY);
         r.rotate(Math.sin(t * 0.9) * 0.08);
-        r.sprite(Assets.PLAYER, 0, 0, 96, 96, 1f);
+        r.sprite(Assets.PLAYER, 0, 0, 128, 128, 1f);
         r.pop();
         double flame = 0.6 + 0.4 * Math.sin(t * 12);
         r.fillRect(shipX - 16, shipY + 46, 8, 12 + flame * 8, Palette.AMBER, 0.9f);
