@@ -237,7 +237,7 @@ public final class Player extends Entity {
             r.push();
             r.translate(x, y);
             r.rotate(bank * 0.4);
-            r.sprite(Assets.shadow(Assets.PLAYER), 3, 4, 96, 96, 0.2f);
+            r.sprite(Assets.shadow(Assets.PLAYER), 5, 6, 96, 96, 0.2f);
             r.sprite(Assets.PLAYER, 0, 0, 96, 96, 1f);
             r.pop();
         }
