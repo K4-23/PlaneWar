@@ -38,7 +38,7 @@ public final class Config {
     public static final int COMBO_STEP = 6;
     public static final int COMBO_MAX_MULTIPLIER = 8;
     public static final double BOMB_RADIUS = 460;
-    public static final int BOMB_DAMAGE = 220;
+    public static final int BOMB_DAMAGE = 260;
 
     // ---------- 道具 ----------
     public static final double POWERUP_FALL_SPEED = 90;
