@@ -41,7 +41,7 @@ public final class Config {
     public static final int BOMB_DAMAGE = 260;
 
     // ---------- 道具 ----------
-    public static final double POWERUP_FALL_SPEED = 90;
+    public static final double POWERUP_FALL_SPEED = 105;
     public static final double POWERUP_MAGNET_RADIUS = 150;
     public static final int MAX_WEAPON_LEVEL = 5;
 
