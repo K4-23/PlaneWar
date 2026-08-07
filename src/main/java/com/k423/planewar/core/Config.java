@@ -48,7 +48,7 @@ public final class Config {
     // ---------- 特效 ----------
     public static final int MAX_PARTICLES = 3200;
     public static final int MAX_FLOATING_TEXT = 64;
-    public static final double SHAKE_DECAY = 4.5;
+    public static final double SHAKE_DECAY = 5.2;
 
     // ---------- 存档 ----------
     public static final String SAVE_DIR = ".planewar";
