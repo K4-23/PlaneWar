@@ -50,7 +50,7 @@ public final class Enemy extends Entity {
         this.maxHp = type.hp();
         this.radius = sizeOf(type) * 0.26;
         this.contactDamage = type.contactDamage();
-        this.fireTimer = type.fireInterval() * (0.6 + 0.4 * Math.random());
+        this.fireTimer = type.fireInterval() * (0.4 + 0.6 * Math.random());
         this.alive = true;
         this.age = 0;
         this.hitFlash = 0;
