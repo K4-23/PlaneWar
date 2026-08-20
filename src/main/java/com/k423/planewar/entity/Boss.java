@@ -66,7 +66,7 @@ public final class Boss {
                 if (y >= targetY) {
                     y = targetY;
                     state = State.FIGHT;
-                    attackTimer = 1.6;
+                    attackTimer = 1.1;
                 }
             }
             case FIGHT -> {
