@@ -151,7 +151,7 @@ public final class Boss {
                 world.spawnDrone(x - 120, y + 40);
                 world.spawnDrone(x + 120, y + 40);
                 world.texts.spawn("召唤无人机", x, y + 120, Palette.ORANGE, 20, true, 1.0);
-                summonTimer = 8.0;
+                summonTimer = 6.5;
             }
             if (t % 5.0 < dt) {
                 BossPatterns.curtain(world, -20, 9, 235, 9, Palette.RED);
