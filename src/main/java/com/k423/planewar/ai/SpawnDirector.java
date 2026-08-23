@@ -77,7 +77,7 @@ public final class SpawnDirector {
             spawnGroup(world);
             groupsSpawned++;
             if (groupsSpawned >= GROUPS_PER_STAGE[Math.min(stageIndex, GROUPS_PER_STAGE.length - 1)]) {
-                bossWarnTimer = 2.6;
+                bossWarnTimer = 3.2;
                 world.announce("警告", "大型敌机接近");
                 world.audio.play(com.k423.planewar.audio.Sfx.BOSS_WARNING);
             }
