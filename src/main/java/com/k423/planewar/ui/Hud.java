@@ -17,7 +17,7 @@ import java.awt.Color;
  */
 public final class Hud {
 
-    private static final Color PANEL = new Color(10, 14, 26, 170);
+    private static final Color PANEL = new Color(10, 14, 26, 150);
 
     public void render(Renderer r, World world, int highScore, boolean showFps, double fps) {
         Player p = world.player;
