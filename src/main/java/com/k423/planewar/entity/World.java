@@ -276,7 +276,7 @@ public final class World {
         }
         if (hitSoundCooldown <= 0) {
             audio.play(Sfx.HIT, 0.22f, 1.1f);
-            hitSoundCooldown = 0.08;
+            hitSoundCooldown = 0.05;
         }
     }
 
