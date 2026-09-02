@@ -46,7 +46,7 @@ public final class GameScene implements Scene {
 
     @Override
     public void update(GameContext ctx, double dt) {
-        fadeIn = Math.min(1, fadeIn + dt * 1.8);
+        fadeIn = Math.min(1, fadeIn + dt * 2.2);
 
         if (world.gameOver || world.victory) {
             handleResult(dt);
