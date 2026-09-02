@@ -226,7 +226,7 @@ public final class MenuScene implements Scene {
         double off = bgScroll % Config.HEIGHT;
         r.sprite(Assets.BG, Config.WIDTH / 2.0, off - Config.HEIGHT / 2.0, Config.WIDTH, Config.HEIGHT);
         r.sprite(Assets.BG, Config.WIDTH / 2.0, off + Config.HEIGHT / 2.0, Config.WIDTH, Config.HEIGHT);
-        r.flash(new Color(4, 8, 18, 190));
+        r.flash(new Color(4, 8, 18, 178));
     }
 
     private void renderFlyingShip(Renderer r) {
