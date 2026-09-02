@@ -242,7 +242,7 @@ public final class MenuScene implements Scene {
 
     private void renderMain(Renderer r) {
         double bob = Math.sin(t * 1.2) * 4;
-        r.textGlow("PLANE WAR", Config.WIDTH / 2.0, 460 + bob, Fonts.bold(78), Palette.WHITE,
+        r.textGlow("PLANE WAR", Config.WIDTH / 2.0, 470 + bob, Fonts.bold(78), Palette.WHITE,
                 Palette.CYAN, Renderer.Align.CENTER, 1f);
         r.text("峡 谷 空 域 · 重 构 版", Config.WIDTH / 2.0, 516 + bob, Fonts.plain(20),
                 Palette.ICE, Renderer.Align.CENTER, 0.85f);
