@@ -35,7 +35,7 @@ public final class EnemyBullet extends Entity {
         age += dt;
         x += vx * dt;
         y += vy * dt;
-        if (age > 0.15 && world.rng().nextDouble() < 0.04) {
+        if (age > 0.15 && world.rng().nextDouble() < 0.08) {
             world.particles.trail(x, y, color, 3.0, 0.16);
         }
         if (y > Config.HEIGHT + 40 || y < -80 || x < -60 || x > Config.WIDTH + 60) {
