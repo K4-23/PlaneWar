@@ -2,7 +2,7 @@
 
 # 🛩️ PlaneWar
 
-**像素风纵版弹幕射击 · Java 21 + Java2D 手写**
+**像素风纵版弹幕射击小游戏**
 
 <img src="docs/screenshots/demo.gif" width="280" alt="游戏演示"/>
 
@@ -78,8 +78,6 @@ mvn test    # 18 个用例：碰撞、连击、存档、Boss 阶段、整局模�
 ## 🙏 致谢
 
 美术素材：[Kenney](https://kenney.nl) 的 [Pixel Shmup](https://kenney.nl/assets/pixel-shmup)（CC0 1.0）
-
-游戏引擎：没有，渲染、碰撞、粒子、音频全部手写。
 
 ## 📄 许可证
 
